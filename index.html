@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=10">
+  <title>Keyboard Event</title>
+  <style>
+    .message {
+      height: 60px;
+      width: 350px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+      margin-left:35%;
+      margin-top:15%;
+    }
+
+    #message {
+      text-align: center;
+      padding-top: 5px;
+    }
+
+    .key-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .key-display {
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+      font-size: 3em;
+      color: #4CAF50;
+      margin: auto;
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="message">
+    <h1 id="message">Press any  keyboard key</h1>
+  </div>
+  <div class="key-box">
+    <div id="key-display" class="key-display"></div>
+  </div>
+  <script src="preesKey.js"></script>
+</body>
+
+</html>
